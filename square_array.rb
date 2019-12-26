@@ -1,12 +1,9 @@
-def square_array(numbers)
-  numbers = ['1,2,3']
-  numbers.each do |n|
-    num1 = {numbers**2}
-    puts num1 
+def square_array(array)
+  # your code here
+  new_arr = []
+  array.each do |x|
+    y = x**2
+    new_arr.push(y)
   end
-
-def square_array(new_numbers)
-  new_numbers = [9,10,16,25]
-  enu1 = (new_numbers).collect {|n| n ** 2}
-    puts enu1
+  new_arr
 end
